@@ -16,7 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <div id="home" style={{ marginTop: '50px' }}>
+      <div id="home">
         <Home />
         <About Toggle={this.toggle} />
         <Transition

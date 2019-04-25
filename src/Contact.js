@@ -4,16 +4,20 @@ export default function Contact() {
   return (
     <div style={c3Style}>
       <h1>Contact</h1>
-      <p>
+      <div>
         <strong>Adresse :</strong> React Spring
+      </div>
+      <div>
         <strong>Phone :</strong> 555-555-555
+      </div>
+      <div>
         <strong>Mail :</strong> react@spring.com
-      </p>
+      </div>
     </div>
   );
 }
 const c3Style = {
   background: 'skyBlue',
-  color: 'white',
+  color: 'black',
   padding: '1.5rem 1.5rem 5rem 1.5rem'
 };
